@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/api/posts",
+      "response": {
+        "status": 200,
+        "body": [
+          { "id": 1, "title": "První příspěvek" },
+          { "id": 2, "title": "Druhý příspěvek" }
+        ]
+      }
+    }
+  ]
+}
